@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cout.setf(ios::boolalpha); // Use ios::boolalpha instead of cout.boolalpha
+    cout.setf(ios::boolalpha); 
 
     int numero1;
     cout << "Input value 1: ";
@@ -13,13 +13,13 @@ int main() {
     cin >> numero2;
 
     bool b;
-    b = (numero1 == numero2); // Use parentheses for the comparison
+    b = (numero1 == numero2); 
 
     cout << "Estados, " << numero1 << " igual " << numero2 << " é " << b << endl;
 
     cout << "Pressione o botão para continuar..." << endl;
-    cin.ignore(); // Clear any remaining input
-    cin.get();    // Wait for user to press enter
+    cin.ignore(); 
+    cin.get();    
 
     return 0;
 }
